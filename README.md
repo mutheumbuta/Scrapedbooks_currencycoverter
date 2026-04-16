@@ -103,8 +103,8 @@ This project includes production-grade safeguards:
   
 4.  Prevents script crashes with fallback values
   
-6.  Validates HTTP responses before processing
-7.  
+5.  Validates HTTP responses before processing
+
 ##  Business Use Cases
 
 This system can be used for: 
@@ -136,5 +136,10 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Your Name:Nancy M
-Data Engineer | Python Developer | Web Scraping Enthusiast
+Nancy Mutheu Mbuta
+
+email:mutheumbuta@gmail.com
+
+Github: mutheumbuta
+
+
