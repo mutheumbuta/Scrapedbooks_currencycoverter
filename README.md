@@ -56,3 +56,38 @@ price-scraper/
 ├── final_prices.csv
 └── README.md
 ```
+## How It Works
+1 Sends request to e-commerce website
+
+2 Extracts product titles + prices
+
+3 Cleans currency using regex
+
+4 Fetches live exchange rate from API
+
+5 Handles API failures (403 fallback system)
+
+6 Converts prices into multiple currencies
+
+7 Saves structured dataset to CSV
+
+## Installation & Usage
+1. Clone repository
+```bash
+git clone https://github.com/your-username/price-scraper.git
+cd price-scraper
+```
+3. Install dependencies
+```
+pip install requests beautifulsoup4 pandas
+```
+5. Add API key
+
+Replace in script:
+
+API_KEY = "YOUR_API_KEY"
+
+4. Run script
+```
+python scraper.py
+```
