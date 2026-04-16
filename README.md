@@ -74,20 +74,20 @@ price-scraper/
 ## Installation & Usage
 1. Clone repository
 ```bash
-git clone https://github.com/your-username/price-scraper.git
-cd price-scraper
+git clone https://github.com/mutheumbuta/Scrapedbooks_currencycoverter.git
+cd pricesrappe_currencyconverter
 ```
 3. Install dependencies
-```
+```bash
 pip install requests beautifulsoup4 pandas
 ```
 5. Add API key
 
 Replace in script:
-
+```python
 API_KEY = "YOUR_API_KEY"
-
-4. Run script
 ```
-python scraper.py
+4. Run script
+```python
+python scraped_books.py
 ```
