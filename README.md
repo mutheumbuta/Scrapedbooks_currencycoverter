@@ -91,3 +91,50 @@ API_KEY = "YOUR_API_KEY"
 ```python
 python scraped_books.py
 ```
+## Error Handling & Reliability
+
+This project includes production-grade safeguards:
+
+1.  Handles 403 Forbidden API errors
+   
+2.  Handles network failures
+  
+3.  Handles invalid currency formats
+  
+4.  Prevents script crashes with fallback values
+  
+6.  Validates HTTP responses before processing
+7.  
+##  Business Use Cases
+
+This system can be used for: 
+
+- E-commerce price monitoring
+  
+- Competitor price tracking
+  
+- Financial data aggregation
+  
+- Market analysis dashboards
+  
+- Currency-based pricing systems
+  
+## Future Improvements
+-  Deploy as FastAPI service
+  
+- Build Streamlit dashboard
+  
+- Docker
+  
+- Database integration (PostgreSQL)
+  
+-  Multi-site scraping engine
+  
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## Author
+
+Your Name:Nancy M
+Data Engineer | Python Developer | Web Scraping Enthusiast
